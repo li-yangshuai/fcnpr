@@ -1,0 +1,3 @@
+D:\msys2\mingw64\bin\cmake.exe -E rm -f CMakeFiles\A_star_search3_0.dir/objects.a
+D:\msys2\mingw64\bin\ar.exe cr CMakeFiles\A_star_search3_0.dir/objects.a @CMakeFiles\A_star_search3_0.dir\objects1.rsp
+D:\msys2\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\A_star_search3_0.dir/objects.a -Wl,--no-whole-archive  -o A_star_search3_0.exe -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\A_star_search3_0.dir\linklibs.rsp
