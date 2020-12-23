@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e799c0-621e-4c1f-bf8c-abf02b1d5abd" name="Default Changelist" comment="" />
+    <list default="true" id="93e799c0-621e-4c1f-bf8c-abf02b1d5abd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +24,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jl5nMyOJEgU7xTp9CJtamm2AaS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,11 +45,6 @@
     <configuration name="A_star_search3_0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A_star_search3_0" TARGET_NAME="A_star_search3_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="A_star_search3_0" RUN_TARGET_NAME="A_star_search3_0">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -70,17 +71,34 @@
       <workItem from="1607585554997" duration="10200000" />
       <workItem from="1608551133016" duration="12940000" />
       <workItem from="1608725489125" duration="435000" />
+      <workItem from="1608726075767" duration="1501000" />
     </task>
+    <task id="LOCAL-00001" summary="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码">
+      <created>1608726418698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608726418698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="211" y="265" key="FileChooserDialogImpl" timestamp="1608725800188">
+    <state x="0" y="0" width="960" height="1040" key="CommitChangelistDialog2" timestamp="1608726412217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="211" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608725800188" />
+    <state x="0" y="0" width="960" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608726412217" />
+    <state x="211" y="265" key="FileChooserDialogImpl" timestamp="1608726096551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="211" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608726096551" />
     <state width="1877" height="858" key="GridCell.Tab.0.bottom" timestamp="1608711602243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -101,6 +119,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="259" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608725581171" />
+    <state x="72" y="251" key="Vcs.Push.Dialog.v2" timestamp="1608727499297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608727499297" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1607842153839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
