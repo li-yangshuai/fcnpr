@@ -5,12 +5,25 @@
 
 #include <iostream>
 
+//UES
 
 int Astar::time_zone_of(int x, int y){
+
     return (y % 2 != 0)?
            ( ((y+1)%4 != 0)? (1+(x+1)%4) : (1+(x+3)%4) ) :
            ( (y%4 == 0)? (4-(x+3)%4) : (4-((x+1)%4)) );
+
 }
+//2DD
+/*
+int Astar::time_zone_of(int x, int y){
+
+    return (y % 2 != 0)?
+           ( ((y+1)%4 != 0)? (1+(x+1)%4) : (1+(x+3)%4) ) :
+           ( (y%4 == 0)? (1+x%4) : (1+((x+2)%4)) );
+}
+*/
+
 
 Astar :: Astar()
 {}
@@ -153,9 +166,17 @@ bool Astar::unWalk(int &x1, int &y1, int &x, int &y)
         return true;
     */
 
+     //USE
     if( time_zone_of(x1,y1) == 1 && time_zone_of(x,y) == 4 ) return false;
     if( time_zone_of(x1,y1) == 4 && time_zone_of(x,y) == 1 ) return true;
     return ( time_zone_of(x1,y1) < time_zone_of(x,y) );
+
+    //2DD
+    /*
+    if( time_zone_of(x1,y1) == 1 && time_zone_of(x,y) == 4 ) return true;
+    if( time_zone_of(x1,y1) == 4 && time_zone_of(x,y) == 1 ) return false;
+    return ( time_zone_of(x1,y1) > time_zone_of(x,y) );
+     */
 }
 
 void Astar::printPath(Node *current)

@@ -11,8 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e799c0-621e-4c1f-bf8c-abf02b1d5abd" name="Default Changelist" comment="">
+    <list default="true" id="93e799c0-621e-4c1f-bf8c-abf02b1d5abd" name="Default Changelist" comment="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/astar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A_star_search3_0.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A_star_search3_0.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A_star_search3_0.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A_star_search3_0.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jl5nMyOJEgU7xTp9CJtamm2AaS" />
@@ -45,6 +60,11 @@
     <configuration name="A_star_search3_0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A_star_search3_0" TARGET_NAME="A_star_search3_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="A_star_search3_0" RUN_TARGET_NAME="A_star_search3_0">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -72,6 +92,8 @@
       <workItem from="1608551133016" duration="12940000" />
       <workItem from="1608725489125" duration="435000" />
       <workItem from="1608726075767" duration="1501000" />
+      <workItem from="1608728007861" duration="4233000" />
+      <workItem from="1609144716979" duration="7325000" />
     </task>
     <task id="LOCAL-00001" summary="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码">
       <created>1608726418698</created>
@@ -80,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608726418698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码">
+      <created>1608728095339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608728095339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,38 +120,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="这是可以成功运行的基于USE时钟布局下的A星寻路测试代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="960" height="1040" key="CommitChangelistDialog2" timestamp="1608726412217">
+    <state x="0" y="0" width="960" height="1040" key="CommitChangelistDialog2" timestamp="1608731938243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="960" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608726412217" />
-    <state x="211" y="265" key="FileChooserDialogImpl" timestamp="1608726096551">
+    <state x="0" y="0" width="960" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608731938243" />
+    <state x="0" y="84" key="DiffContextDialog" timestamp="1608728843871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="211" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608726096551" />
-    <state width="1877" height="858" key="GridCell.Tab.0.bottom" timestamp="1608711602243">
+    <state x="0" y="84" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608728843871" />
+    <state x="211" y="265" key="FileChooserDialogImpl" timestamp="1608807991268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="858" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608711602243" />
-    <state width="1877" height="858" key="GridCell.Tab.0.center" timestamp="1608711602242">
+    <state x="211" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608807991268" />
+    <state width="1317" height="479" key="GridCell.Tab.0.bottom" timestamp="1609156924548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="858" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608711602242" />
-    <state width="1877" height="858" key="GridCell.Tab.0.left" timestamp="1608711602242">
+    <state width="1317" height="479" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609156924548" />
+    <state width="1317" height="479" key="GridCell.Tab.0.center" timestamp="1609156924547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="858" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608711602242" />
-    <state width="1877" height="858" key="GridCell.Tab.0.right" timestamp="1608711602242">
+    <state width="1317" height="479" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609156924547" />
+    <state width="1317" height="479" key="GridCell.Tab.0.left" timestamp="1609156924547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="858" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608711602242" />
+    <state width="1317" height="479" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609156924547" />
+    <state width="1317" height="479" key="GridCell.Tab.0.right" timestamp="1609156924548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1317" height="479" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609156924548" />
     <state x="259" y="162" key="SettingsEditor" timestamp="1608725581171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="259" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608725581171" />
-    <state x="72" y="251" key="Vcs.Push.Dialog.v2" timestamp="1608727499297">
+    <state x="72" y="251" key="Vcs.Push.Dialog.v2" timestamp="1608786645163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608727499297" />
+    <state x="72" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608786645163" />
+    <state x="283" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608731482553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="283" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608731482553" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1607842153839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
