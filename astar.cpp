@@ -148,24 +148,6 @@ bool Astar ::compare(Node *n1, Node *n2)
 
 bool Astar::unWalk(int &x1, int &y1, int &x, int &y)
 {
-   /* int x = node.x;
-    int y = node.y;
-    if(      (map[x+1][y]-map[x][y]==1)
-          || (map[x-1][y]-map[x][y]==1)
-          || (map[x][y+1]-map[x][y]==1)
-          || (map[x][y-1]-map[x][y]==1)
-          || (map[x+1][y]-map[x][y]==-3)
-          || (map[x-1][y]-map[x][y]==-3)
-          || (map[x][y+1]-map[x][y]==-3)
-          || (map[x][y-1]-map[x][y]==-3)
-            )
-    {
-        return false;
-    }
-    else
-        return true;
-    */
-
      //USE
     if( time_zone_of(x1,y1) == 1 && time_zone_of(x,y) == 4 ) return false;
     if( time_zone_of(x1,y1) == 4 && time_zone_of(x,y) == 1 ) return true;
